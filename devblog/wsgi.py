@@ -1,5 +1,5 @@
 """
-WSGI config for qblog project.
+WSGI config for devblog project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -8,7 +8,7 @@ https://docs.djangoproject.com/en/dev/howto/deployment/wsgi/
 """
 
 import os
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "qblog.settings")
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "devblog.settings")
 
 from django.core.wsgi import get_wsgi_application
 application = get_wsgi_application()
