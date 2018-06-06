@@ -43,7 +43,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'blogdev.urls'
+ROOT_URLCONF = 'devblog.urls'
 
 WSGI_APPLICATION = 'blogsite.wsgi.application'
 
